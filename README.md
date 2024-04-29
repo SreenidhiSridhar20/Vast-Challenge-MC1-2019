@@ -6,9 +6,13 @@ Visualizations using Tableau
 <h2>Data Visualization:</h2>
 <p>Core purpose of visualization is to make complicated datasets simpler. Visualization is considered an indispensable part of data science because there is a need to analyze and visualize the data [2]. With the help of our visualization, we answer the following question which will aid the St. Himark’s emergency-officials to respond to the disaster affected area faster.[3]</p>
 
+<img src="Visualization_Screenshots/Fig2_Vast.jpg", alt = "fig1", height="50%" Width="50%">
+<img src="Visualization_Screenshots/Fig1_Vast.jpg", alt = "fig2", height="50%" Width="50%">
+
 <h2>Research Questions:</h2>
 <ol>
-  <li><b>Use visual analytics to determine how their response should change based on damage reports from citizens on the ground. How would you prioritize neighborhoods for response? Which parts of the city are hardest hit?</b><br>
+<li><b>Use visual analytics to determine how their response should change based on damage reports from citizens on the ground. How would you prioritize neighborhoods for response? Which parts of the city are hardest hit?</b><br>
+
 From the plots [Figure 1], we observe following are instances with high number of incidents were reported:-<br>
 <ul>
 <li>6th April 2020 - 13:00-18:00 shows a higher frequency of reports of mostly low intensity values.</li>
@@ -17,17 +21,21 @@ From the plots [Figure 1], we observe following are instances with high number o
 <li>9th April 2020 - 15:00-18:00 cluster of reports with sewer and water now being the most severe.</li>
 <li>10th April 2020 - 02:30 and Fri 12:00 another burst of probably delayed reports all showing elevated severity across damage types and roads/bridges now being the most severe.</li>
 <li>10th April 2020 - 12:00 cluster is probably erroneous as (a) it is logged at exactly 12:00; (b) the shake intensity is higher than earlier reports and does not correspond with any other evidence of a significant tremor at this time.</li></ul>
-    <p>Based on the shake intensity plot for each neighborhood, we observe that Old Town and Safe Town neighborhoods are highly impacted by the earthquake. Emergency responders can use these plots and respond to highly impacted neighborhoods on priority. They can also view the type of damage occurring - building, road, bridge, power etc and dispatch the relevant emergency team to rescue and fix the damage.</p>
+<p>Based on the shake intensity plot for each neighborhood, we observe that Old Town and Safe Town neighborhoods are highly impacted by the earthquake. Emergency responders can use these plots and respond to highly impacted neighborhoods on priority. They can also view the type of damage occurring - building, road, bridge, power etc and dispatch the relevant emergency team to rescue and fix the damage.</p>
 </li>
+
 <li><b>Compare the reliability of neighborhood reports. Which neighborhoods are providing reliable reports?</b>
-From the box plot [Figure 2] we observe the interquartile range of the shake intensity for each neighborhood. This provides quartile data, me- dian and the type of damage occurred which determines the reliability of the neighborhood reports. Lesser value of quartile range and smaller variance at a particular instance confirms higher reliability of the reports.<br> Based on these parameters follow- ing neighborhood reports are the most reliable:-<br>
+
+From the box plot [Figure 2] we observe the interquartile range of the shake intensity for each neighborhood. This provides quartile data, median and the type of damage occurred which determines the reliability of the neighborhood reports. Lesser value of quartile range and smaller variance at a particular instance confirms higher reliability of the reports.<br> Based on these parameters following neighborhood reports are the most reliable:-<br>
 <ul>
 <li>Palace Hills</li>
 <li>Scenic Vista</li>
 <li>Southton</li>
 <li>Southwest</li></ul>
 </li>
+
 <li><b>How do conditions change over time? How does uncertainty change over time?</b>
+
 Based on the plots [Figure 3]:-<br>
 <ul>
 <li>Apr 06 13:00 to Apr 06 21:00: Most of the locations have a low average level of damage in 6 types of damage. The total number of reports are also low in this time range.</li>
